@@ -1,0 +1,13 @@
+table {
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+menu {
+    width: 100%;
+    background-color: blue;
+}
+
+th, td {
+    padding: 10px;
+}
