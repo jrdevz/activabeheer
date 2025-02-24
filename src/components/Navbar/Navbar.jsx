@@ -1,4 +1,4 @@
-import './Navbar.css'
+import styles from './Navbar.module.css'
 import NavButton from './NavButtons/NavButton';
 
 export default function Navbar(){
@@ -6,8 +6,8 @@ export default function Navbar(){
         <div>
             <nav>
                 <ul>
-                    <li className='nav-brand'><h1>Activa Beheer</h1></li>
-                    <div className='nav-links'>
+                    <li className={styles['nav-brand']}><h1>Activa Beheer</h1></li>
+                    <div className={styles['nav-links']}>
                         <NavButton>Dashboard</NavButton>
                         <NavButton>Voorraad</NavButton>
                         <NavButton>Licenties</NavButton>

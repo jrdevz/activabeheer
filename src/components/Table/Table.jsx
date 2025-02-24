@@ -1,10 +1,10 @@
-import './Table.css'
+import styles from  './Table.module.css'
 
 export function InventoryTable() {
     return (
-        <div className='dynamic-table'>
-            <div className='action-menu'>
-                <input className='search' type="text" placeholder='Search' />
+        <div className={styles['dynamic-table']}>
+            <div className={styles['action-menu']}>
+                <input className={styles['search']} type="text" placeholder='Search' />
                 <button>Toevoegen</button>
                 <button>Verwijderen</button>
             </div>

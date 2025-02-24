@@ -1,9 +1,9 @@
-import './Sidebar.css'
+import styles from './Sidebar.module.css'
 
 
 export function LaptopIcon(props) {
     return (
-    <svg className='menu-icon' width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+    <svg className={styles['menu-icon']} width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
         <path d="M6 4.5C4.75736 4.5 3.75 5.50736 3.75 6.75V15H2.75C2.49007 15 2.24867 15.1346 2.11201 15.3557C1.97536 15.5768 1.96293 15.8529 2.07918 16.0854L3.16459 18.2562C3.54572 19.0185 4.32481 19.5 5.17705 19.5H18.8229C19.6752 19.5 20.4543 19.0185 20.8354 18.2562L21.9208 16.0854C22.0371 15.8529 22.0246 15.5768 21.888 15.3557C21.7513 15.1346 21.5099 15 21.25 15H20.25V6.75C20.25 5.50736 19.2426 4.5 18 4.5H6ZM20.0365 16.5H3.96353L4.50623 17.5854C4.63328 17.8395 4.89297 18 5.17705 18H18.8229C19.107 18 19.3667 17.8395 19.4938 17.5854L20.0365 16.5ZM18.75 15V6.75C18.75 6.33579 18.4142 6 18 6H6C5.58579 6 5.25 6.33579 5.25 6.75V15H18.75Z" fill="#343C54" fillRule="evenodd" clipRule="evenodd"/>
     </svg>
 
@@ -12,7 +12,7 @@ export function LaptopIcon(props) {
 
 export function MouseIcon(props) {
     return (
-    <svg className='menu-icon' width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+    <svg className={styles['menu-icon']} width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
         <path d="M4.50006 9.86722C4.50006 5.72506 7.85794 2.36719 12.0001 2.36719C16.1422 2.36719 19.5001 5.72507 19.5001 9.86722V14.8672C19.5001 19.0093 16.1422 22.3672 12.0001 22.3672C7.85794 22.3672 4.50006 19.0093 4.50006 14.8672V10.6269C4.50002 10.6236 4.5 10.6204 4.5 10.6172C4.5 10.614 4.50002 10.6107 4.50006 10.6075V9.86722ZM6.00006 11.3672V14.8672C6.00006 18.1809 8.68637 20.8672 12.0001 20.8672C15.3138 20.8672 18.0001 18.1809 18.0001 14.8672V11.3672H6.00006ZM11.2501 9.86719H6.00006C6.00008 6.80747 8.29035 4.28268 11.2501 3.91361L11.2501 9.86719ZM12.7501 9.86719H18.0001C18.0001 6.80747 15.7098 4.28268 12.7501 3.91361L12.7501 9.86719Z" fill="#343C54" fillRule="evenodd" clipRule="evenodd"/>
     </svg>
 
@@ -21,7 +21,7 @@ export function MouseIcon(props) {
 
 export default function KeyboardIcon(props) {
     return (
-    <svg className='menu-icon' width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+    <svg className={styles['menu-icon']} width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
         <path d="M6.44141 8.19219C5.99958 8.19219 5.64141 8.55036 5.64141 8.99219C5.64141 9.43402 5.99958 9.79219 6.44141 9.79219H6.45141C6.89323 9.79219 7.25141 9.43402 7.25141 8.99219C7.25141 8.55036 6.89323 8.19219 6.45141 8.19219H6.44141Z" fill="#343C54"/>
         <path d="M5.63945 12.3672C5.63945 11.9254 5.99763 11.5672 6.43945 11.5672H6.44945C6.89128 11.5672 7.24945 11.9254 7.24945 12.3672C7.24945 12.809 6.89128 13.1672 6.44945 13.1672H6.43945C5.99763 13.1672 5.63945 12.809 5.63945 12.3672Z" fill="#343C54"/>
         <path d="M10.1445 8.19219C9.7027 8.19219 9.34453 8.55036 9.34453 8.99219C9.34453 9.43402 9.7027 9.79219 10.1445 9.79219H10.1545C10.5964 9.79219 10.9545 9.43402 10.9545 8.99219C10.9545 8.55036 10.5964 8.19219 10.1545 8.19219H10.1445Z" fill="#343C54"/>
@@ -40,7 +40,7 @@ export default function KeyboardIcon(props) {
 
 export function MonitorIcon(props) {
     return (
-    <svg className='menu-icon' width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+    <svg className={styles['menu-icon']} width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
         <path d="M2 6.42187C2 5.17923 3.00736 4.17188 4.25 4.17188H19.75C20.9926 4.17188 22 5.17923 22 6.42188V13.8281C22 15.0708 20.9926 16.0781 19.75 16.0781H12.75V18.3281H15C15.4142 18.3281 15.75 18.6639 15.75 19.0781C15.75 19.4923 15.4142 19.8281 15 19.8281H9.00003C8.58582 19.8281 8.25003 19.4923 8.25003 19.0781C8.25003 18.6639 8.58582 18.3281 9.00003 18.3281H11.25V16.0781H4.25C3.00736 16.0781 2 15.0708 2 13.8281V6.42187ZM4.25 5.67188C3.83579 5.67188 3.5 6.00766 3.5 6.42187V13.8281C3.5 14.2423 3.83579 14.5781 4.25 14.5781H19.75C20.1642 14.5781 20.5 14.2423 20.5 13.8281V6.42188C20.5 6.00766 20.1642 5.67188 19.75 5.67188H4.25Z" fill="#343C54" fillRule="evenodd" clipRule="evenodd"/>
     </svg>
 
@@ -49,7 +49,7 @@ export function MonitorIcon(props) {
 
 export function DockIcon(props) {
     return (
-    <svg className='menu-icon' width="20" height="20" viewBox="0 0 25 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+    <svg className={styles['menu-icon']} width="20" height="20" viewBox="0 0 25 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
         <path d="M14.5 2.75C14.5 2.33579 14.8358 2 15.25 2C15.6642 2 16 2.33579 16 2.75V5.73291L19.5 5.73291C19.9142 5.73291 20.25 6.0687 20.25 6.48291C20.25 6.89712 19.9142 7.23291 19.5 7.23291H19L19 12.2329C19 15.5691 16.4866 18.3183 13.25 18.6901V21.25C13.25 21.6642 12.9142 22 12.5 22C12.0858 22 11.75 21.6642 11.75 21.25V18.6901C8.51342 18.3183 6 15.5691 6 12.2329L6 7.23291H5.5C5.08579 7.23291 4.75 6.89712 4.75 6.48291C4.75 6.0687 5.08579 5.73291 5.5 5.73291L9 5.73291L9 2.75C9 2.33579 9.33579 2 9.75 2C10.1642 2 10.5 2.33579 10.5 2.75L10.5 5.73291L14.5 5.73291V2.75ZM7.5 7.23291L7.5 12.2329C7.5 14.9943 9.73858 17.2329 12.5 17.2329C15.2614 17.2329 17.5 14.9943 17.5 12.2329L17.5 7.23291L7.5 7.23291Z" fill="#343C54" fillRule="evenodd" clipRule="evenodd"/>
     </svg>
 
@@ -58,7 +58,7 @@ export function DockIcon(props) {
 
 export function HeadsetIcon(props) {
     return (
-    <svg className='menu-icon' width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
+    <svg className={styles['menu-icon']} width="20" height="20" viewBox="0 0 24 24" fill="#343C54" xmlns="http://www.w3.org/2000/svg" transform="rotate(0 0 0)">
         <path d="M12 3.25C7.16753 3.25 3.25 7.16753 3.25 12V17.0518C3.25 17.054 3.25001 17.0563 3.25003 17.0586V17.25C3.25003 18.4926 4.25739 19.5 5.50003 19.5H6.50003C7.74267 19.5 8.75003 18.4926 8.75003 17.25V13.75C8.75003 12.5074 7.74267 11.5 6.50003 11.5H5.50003C5.24061 11.5 4.99144 11.5439 4.75955 11.6247C4.95486 7.79505 8.12185 4.75 12 4.75C15.8782 4.75 19.0452 7.79502 19.2405 11.6246C19.0087 11.5439 18.7596 11.5 18.5002 11.5H17.5002C16.2576 11.5 15.2502 12.5074 15.2502 13.75V17.25C15.2502 18.4926 16.2576 19.5 17.5002 19.5H18.5002C19.7429 19.5 20.7502 18.4926 20.7502 17.25V13.75C20.7502 13.7418 20.7502 13.7336 20.7501 13.7254V12C20.7501 7.16753 16.8326 3.25 12 3.25ZM19.2501 13.7358V17.0518C19.2501 17.0565 19.2501 17.0612 19.2502 17.066V17.25C19.2502 17.6642 18.9144 18 18.5002 18H17.5002C17.086 18 16.7502 17.6642 16.7502 17.25V13.75C16.7502 13.3358 17.086 13 17.5002 13H18.5002C18.9097 13 19.2425 13.3281 19.2501 13.7358ZM6.50003 13C6.91424 13 7.25003 13.3358 7.25003 13.75V17.25C7.25003 17.6642 6.91424 18 6.50003 18H5.50003C5.08582 18 4.75003 17.6642 4.75003 17.25V13.75C4.75003 13.3358 5.08582 13 5.50003 13H6.50003Z" fill="#343C54" fillRule="evenodd" clipRule="evenodd"/>
     </svg>
 
@@ -68,8 +68,8 @@ export function HeadsetIcon(props) {
 
 export function Sidebar() {
     return (
-        <div className='sidebar-menu'>
-            <button className='active'><LaptopIcon/>Laptops</button>
+        <div className={styles['sidebar-menu']}>
+            <button className={styles['active']}><LaptopIcon/>Laptops</button>
             <button><MouseIcon/>Muizen</button>
             <button><KeyboardIcon/>Toetsenborden</button>
             <button><MonitorIcon/>Beeldschermen</button>

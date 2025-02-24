@@ -1,3 +1,8 @@
 #root {
   color: black;
 }
+
+h1 {
+  display: block;
+  padding-left: 50px;
+}
