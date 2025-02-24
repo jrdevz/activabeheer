@@ -1,13 +1,48 @@
-table {
-    border: 1px solid black;
-    margin: 50px auto;
+.dynamic-table {
+    width: 85%;
+    display: inline-flex;
+    vertical-align: top;
+    flex-direction: column;
 }
 
-menu {
+.search {
+    margin: 0 25px;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+table {
     width: 100%;
-    background-color: blue;
+    /* border: 1px solid black; */
+}
+
+.action-menu {
+    display: flex;
+    align-items: center;
+    background-color: #1D3A8F;
+    height: 50px;
+}
+
+.action-menu button {
+    width: 100px;
+    height: 100%;
+    color: white;
+    font-size: 11pt;
+}
+
+tr {
+    border-bottom: 1px solid lightgrey;
 }
 
 th, td {
     padding: 10px;
+    text-align: center;
+}
+
+th {
+    font-size: 10pt;
+}
+
+td {
+    font-size: 10pt;
 }

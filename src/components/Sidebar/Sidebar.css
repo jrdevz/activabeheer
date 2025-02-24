@@ -1,0 +1,28 @@
+.sidebar-menu {
+    display: inline-flex;
+    vertical-align: top;
+    flex-direction: column;
+    /* background-color: grey; */
+    width: 15%;
+    height: 100vh;
+}
+
+.sidebar-menu button {
+    display: block;
+    background-color: #fefefe;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding: 0 10px;
+    font-size: 11pt;
+}
+
+.sidebar-menu .active {
+    background-color: lightgrey;
+    border-left: 3px solid #1D3A8F;
+}
+
+.menu-icon {
+    display: inline;
+    margin: 0 5px;
+}
